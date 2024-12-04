@@ -5,6 +5,7 @@ body, html {
   padding: 0;
   font-family: Arial, sans-serif;
   box-sizing: border-box;
+	background-color:#33ff7a
 }
 
 /* Container for the entire product section */
@@ -100,7 +101,7 @@ body, html {
 }
 
 .add-to-cart button {
-  background-color: #42b72a;
+  background-color: #ff4233;
   color: white;
   border: none;
   padding: 10px 20px;
