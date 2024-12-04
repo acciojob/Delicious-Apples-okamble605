@@ -1,1 +1,114 @@
 /* your code here */
+/* General Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+/* Container for the entire product section */
+.product {
+  display: flex;
+  margin: 40px;
+}
+
+/* Left Section: Photos */
+.product__photo {
+  width: 50%;
+  padding: 20px;
+}
+
+.photo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo-main img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 8px;
+}
+
+.photo-album ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.photo-album li {
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.photo-album img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* Right Section: Product Information */
+.product__info {
+  width: 50%;
+  padding: 20px;
+}
+
+.title h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+.title span {
+  font-size: 16px;
+  color: #888;
+}
+
+.price {
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+.price span {
+  font-weight: bold;
+}
+
+.variant ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.variant li img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.description ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.description li {
+  font-size: 14px;
+  color: #555;
+}
+
+.add-to-cart button {
+  background-color: #42b72a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.add-to-cart button:hover {
+  background-color: #365e02;
+}
